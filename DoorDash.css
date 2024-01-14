@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+font-weight: bolder;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-weight: bolder;
+}
+h1{
+    font-weight: bolder;
+}
+
+.image{
+position: relative;
+}
+.sub-image{
+position:absolute;
+ top: 50%;
+ left: 25%;
+color: white;
+
+}
+.btn1{
+    position: absolute;
+    background-color:red;
+    padding:10px;
+    border: none;
+    border-radius: 19px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    top: 10px;
+    right: 92px;
+}
+.btn2{
+    position: absolute;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 19px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    top:10px;
+    right: 11px;
+}
+.input1{
+    position: absolute;
+    width: 311px;
+    padding:12px;
+    border:none;
+    border-radius: 20px;
+    top: 63%; 
+    left: 460px;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.input2{
+    position: absolute;
+    width: 220px;
+    padding: 6px;
+    border: none;
+    /* background-color: white; */
+    font-weight:bold ;
+    top: 72%;
+    text-align: center;
+    left: 500px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.image-container{
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.flex-container{
+    position: relative;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 160px;
+    flex-wrap: wrap;
+    
+}
+.flex2{
+    margin-left: 50px;
+
+}
+.flex1{
+    margin-top: 120px;
+    margin-left: 19px;
+}
+.input3{
+margin: 10px;
+padding: 10px;
+width: 130px;
+border: none;
+border-radius: 18px;
+color: white;
+background-color: red ;
+text-align: center;
+font-weight: bold;
+
+}
+.flex-container1{
+display: flex;
+margin-top: -40px;
+background-color:rgba(252, 235, 238, 0.726); 
+padding-left: 220px;
+flex-wrap: wrap;
+
+}
+.flex3{
+margin-top: 90px;
+}
+.flex4{
+margin-top: 200px;
+margin-left: 50px;
+}
+.input4{
+margin: 10px;
+padding: 10px;
+width: 120px;
+border: none;
+border-radius: 18px;
+color: white;
+background-color: red ;
+text-align: center;
+font-weight: bold; 
+}
+.position-container{
+position: relative;
+margin-top: 15px;
+
+}
+.image1{
+
+filter: brightness(50%);
+}
+.image-letters{
+position: absolute;
+color: white;
+top: 120px;
+align-items: center;
+margin-left: 36%;
+
+
+}
+.input5{
+margin: 10px;
+padding: 10px;
+width: 120px;
+border: none;
+border-radius: 18px;
+color: white;
+background-color: red ;
+text-align: center;
+font-weight: bold; 
+margin-left: 150px;
+margin-top: 14px;
+}
+.flex-container2{
+display: flex;
+flex: wrap;
+margin-top: 50px;
+margin-left: 200px;
+}
+.flex-letters{
+margin-top: 150px;
+margin-right: 70px;
+
+}
+.input6{
+padding: 8px;
+width: 80px;
+border: none;
+border-radius: 18px;
+color: white;
+background-color: red ;
+text-align: center;
+font-weight: bold; 
+margin-top: 22px;
+}
+.flex-container3{
+background-color:rgba(252, 235, 238, 0.726); 
+padding-bottom: 10px;
+}
+.description{
+text-align: center;
+margin-top: 40px;
+}
+.image3{
+margin-top: 70px;
+text-align: center;
+margin-top: 70px;
+}
+.image4{
+margin-top: 70px;
+text-align: center;
+margin-top: 70px;
+margin-left: 40px;
+}
+.style{
+text-align: center;
+padding-top: 60px;
+margin-top: -30px;
+}
+.flex-sub{
+display: flex;
+flex-wrap: wrap;
+margin-left: 160px;
+
+}
+.input7{
+padding: 8px;
+width: 150px;
+border: none;
+border-radius: 18px;
+color: white;
+background-color: red ;
+text-align: center;
+font-weight: bold; 
+margin-top: 22px
+}
+.input8{
+padding: 8px;
+width: 80px;
+border: none;
+border-radius: 18px;
+color: white;
+background-color: red ;
+text-align: center;
+font-weight: bold; 
+margin-top: 22px
+}
+.flex-sub1{
+display: flex;
+flex-wrap: wrap;
+margin-top: 30px;
+margin-left: 160px;
+
+}
+.image5{
+text-align: center;
+}
+.image6{
+text-align: center;
+margin-left: 40px;
+}
+.input9{
+padding: 8px;
+width: 150px;
+border: none;
+border-radius: 18px;
+color: white;
+background-color: red ;
+text-align: center;
+font-weight: bold; 
+margin-top: 22px
+}
+.input10{
+padding: 8px;
+width: 150px;
+border: none;
+border-radius: 18px;
+color: white;
+background-color: red ;
+text-align: center;
+font-weight: bold; 
+margin-top: 22px
+}
+.flex-container4{
+margin-top: 50px;
+}
+.flex-sub2{
+display: flex;
+flex-wrap: wrap;
+margin-top: 58px;
+margin-left: 100px;
+}
+.image7{
+margin-top: 110px;
+margin-left: 90px;
+
+}
+.image8{
+margin-left: 100px;
+}
+.input11{
+padding: 8px;
+width: 150px;
+border: none;
+border-radius: 18px;
+color: white;
+background-color: red ;
+text-align: center;
+font-weight: bold; 
+margin-top: 22px
+}
+.flex-container5{
+display: flex;
+flex-wrap: wrap;
+background-color:rgba(252, 235, 238, 0.726); 
+margin-top: -50px;
+padding-left: 160px;
+padding-bottom: 20px;
+
+}
+.image9{
+padding-top: 90px;
+
+}
+.image10{
+margin-top: 190px;
+margin-left: 50px;
+}
+.input12{
+padding: 8px;
+width: 150px;
+border: none;
+border-radius: 18px;
+color: white;
+background-color: red ;
+text-align: center;
+font-weight: bold; 
+margin-top:22px;
+margin-left: 12px;
+
+}
+footer {display: flex;
+flex-direction: column;
+justify-content: space-between;
+background-color: black;
+padding: 40px;
+margin: 0;
+}
+
+
+.div1, .div2{
+width: 100%;
+height: 10%;
+display: flex;
+flex-direction: row;
+align-items: flex-start;}
+
+
+.div1 p, .div2 p{
+font-size: 18px;
+margin-bottom: 20px;
+color: white;
+font-weight: 600;}
+
+.div1 ul, .div2 ul{
+list-style-type: none;
+display: flex;
+flex-direction: column;
+padding: 0px 50px;
+}
+
+
+.div1 li, .div2 li {
+margin-bottom: 10px;
+color: rgb(182, 181, 181);
+font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 600;
+}
+.div1 li:hover, .div2 li:hover{
+color: white;
+text-decoration: underline;}
+
+
+select {
+padding: 4px;
+border-radius: 20px;
+margin-bottom: -50px;}
+
+.svg-color{
+    color: black;
+    position: absolute;
+    top: 24.7pc;
+    left: 29.4pc;
+    z-index: 2;
+
+}
+.svg-color1{
+    border-radius: 50%;
+    background-color: #EB1700;
+    position: absolute;
+    padding: 4px;
+    color: white;
+    top: 24.5pc;
+    left: 45pc;
+
+}
+.svg-color2{
+ position: absolute; 
+ top: 28pc;
+ left: 31.7pc;
+ z-index: 1;
+ color: black;
+    
+}
+
